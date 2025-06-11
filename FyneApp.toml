@@ -1,6 +1,6 @@
 [Details]
   Icon = "myapp.png"
-  Name = "MarkDown"
+  Name = "Markdown"
   ID = "com.nvbien2000.markdown"
   Version = "1.0.0"
-  Build = 3
+  Build = 4

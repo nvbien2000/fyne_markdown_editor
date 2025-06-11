@@ -1,4 +1,4 @@
-BINARY_NAME=MarkDown.app
+BINARY_NAME=Markdown.app
 APP_NAME=MarkDown
 VERSION=1.0.0
 

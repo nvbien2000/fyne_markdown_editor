@@ -1,6 +1,8 @@
 package main
 
 import (
+	my_theme "markdown-editor/theme"
+
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
 	"fyne.io/fyne/v2/container"
@@ -19,6 +21,7 @@ var content Content
 
 func main() {
 	a := app.New()
+	a.Settings().SetTheme(&my_theme.MyTheme{})
 	win := a.NewWindow("Markdown")
 
 	// get UI contents
